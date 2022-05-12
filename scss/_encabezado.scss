@@ -1,0 +1,33 @@
+@media(min-width: 500px) {
+  .seccion_titulo {
+    font-size: 39px;
+    padding-top: 9rem;
+    padding-left: 0%;
+    background-position: 3rem;
+
+  }
+}
+
+.seccion_titulo {
+    padding-left: 0%;
+    color:$color-3;
+    font-style: normal;
+    font-family:'Merriweather', serif;
+    font-size: 18px;
+    background-image: url(../logo.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+   }
+
+  .subtitulo{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: lighter;
+  }
+  @media (min-width:500px) {
+    .subtitulo{
+      font-size: 35px;
+      padding-top: 1rem;
+    }
+    
+  }
